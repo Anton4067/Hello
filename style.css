@@ -1,0 +1,121 @@
+body {
+	background-image:url("mybackground.png");
+    font-family: "Consolas", monospage;
+}
+
+
+.container {
+	
+	min-height: 800px;
+}
+
+.top {
+	width: 1000px;
+	min-height:350px;
+	margin: 50px auto 0px auto;
+	border-bottom:2px dotted white;
+}
+
+.bottom {
+	width: 1000px;	
+	margin: 0px auto;
+}
+
+.bottom-left{
+	border-right:2px dotted white;
+	
+}
+.top-left{
+	border-right:2px dotted white;
+	
+}
+ 
+.block {
+    display: inline-block;
+    vertical-align: top;
+    width: 480px;
+    min-height:500px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    text-align: center;
+    color: white; 
+   
+}
+
+
+.top-left .table {
+    display: table;
+    background: #d9edf7;
+    border-color: #3a87ad;
+    margin-left:80px;
+    margin-bottom:30px;
+    border-spacing: 5px;
+	width:300px;
+}
+
+.top-left .row {
+	
+    display: table-row;
+    background:  #06799F;
+    border-color: #b94a48;
+}
+
+.top-left .cell {
+	padding:10px;
+    display: table-cell;
+    background: #06799F;
+    border-color: #c09853;
+}
+
+.top-right p{ 
+	padding-top:30px;
+ }
+ 
+.top-right .about{
+
+	 font-size: 20px;
+	 font-weight: bold;
+	 color:white;
+}
+
+ .character ul{
+	 margin-top:50px;
+	 margin-right:30px;
+	 list-style:none;
+	 font-size: 25px;
+	 font-weight: bold;
+	 color:white;
+}
+
+.avatar {
+     width: 168px;
+     height: 180px;
+     background: #7f8c8c url("avatar.png") no-repeat ;
+	 background-size:  180px,  223px;
+	 margin: 10px 150px;
+	 border:8px groove white;
+	 float:left;
+}
+.author {
+    margin-bottom: 5px;
+	margin-left:100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 30px;
+    font-weight: bold;
+	width: 250px;
+	text-decoration: underline;
+}
+
+.bottom-right .text  {
+	background-color: white;
+	border-bottom: 5px solid #bdc3c7;
+	height: 250px;
+	padding: 5px 17px 10px 15px;
+	width: 400px;
+	font-size: 18px;
+	position: absolute; 
+	color:black;
+	margin-left:20px;
+}
+
